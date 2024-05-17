@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 # Load the model and tokenizer
 model_checkpoint = "Helsinki-NLP/opus-mt-en-hi"
-tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
+tokenizer = AutoTokenizer.from_pretrained('darrow312/finetunedHelsinkiMajorProject')
 #model = AutoModelForSeq2SeqLM.from_pretrained('C:/Users/sidac/Desktop/helsinkiFinalwithMetrics')
 model = AutoModelForSeq2SeqLM.from_pretrained('darrow312/finetunedHelsinkiMajorProject')
 
